@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ucapan Selamat Ulang Tahun</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h1 id="birthday-message">Selamat Ulang Tahun!</h1>
+            <img src="birthday-cake.png" alt="Birthday Cake" class="birthday-cake"><br>
+            <button id="reveal-btn">Klik untuk melihat pesan spesial</button>
+            <div id="special-message" class="hidden">
+                <p>
+                    Happy 24th Birthday, Tasa! 🎉
+
+                <p>Wishing you a fantastic year ahead filled with joy, success, and all the happiness your heart can
+                    hold. Enjoy your special day!</p>
+
+                </p>
+                <p>Best wishes,</p>
+                <p>
+                    Kukuh Haryobismoko</p>
+            </div>
+            <canvas id="confetti-canvas" class="hidden"></canvas>
+        </div>
+    </div>
+    <audio id="birthday-song" src="happy-birthday-song.mp3" preload="auto"></audio>
+    <script src="confetti.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
